@@ -18,9 +18,10 @@ ul {
   margin: 0;
   padding: 0;
 }
-.header {
+.header,
+.site-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .header img {
   padding: 4vmin;
@@ -58,8 +59,18 @@ ul {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.container-free {
+  margin: 2vmin;
+  padding: 2vmin;
+  border: 2px solid #477ffc;
+  border-radius: 2vmin;
+}
+.change-lang {
+  font-size: 8vmin;
+}
 
-.wrapper {
+.wrapper,
+.container {
   width: 90%;
   margin: 0 auto;
   /* border: 3px dotted navy; */
